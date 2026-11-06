@@ -1,0 +1,49 @@
+.nav-bar{
+    display: flex;
+}
+.top-nav-bar{
+    background-color: rgb(1, 1, 62);
+    padding: 12 10px;
+}
+.nav-link{
+    color: aliceblue;
+    flex: 1;
+    padding: 12 10px;
+    justify-content: center;
+    gap: 3px;
+    overflow-x: auto;
+
+}
+button{
+    color: rgb(255, 101, 5);
+}
+.container{
+    display: flex;
+    text-align: center;
+}
+.container .quality-1{
+    background-color: rgb(255, 101, 5);
+    color: aliceblue;
+}
+.container .quality-2{
+    background-color: rgb(1, 1, 62);
+    color: aliceblue;
+}
+.container .quality-3{
+    background-color: rgb(255, 101, 5);
+    color: aliceblue;
+
+}
+.container .quality-4{
+    background-color: rgb(1, 1, 62);
+    color: aliceblue;
+}
+.Offers{
+    display: flex;
+
+}
+.Offers img About{
+    justify-content: flex-end;
+    align-items: right;
+}
+
