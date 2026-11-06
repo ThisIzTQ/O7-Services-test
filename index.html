@@ -4,108 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fox University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <nav class = "nav" id = "nav-bar">
+    <header class="topbar wrap">
+        <a class="logo" href="#hero">FOX.<small>UNIVERSITY</small></a>
+        <div class="topbar-info">
+            <div class="info"><span class="info-icon">&#9992;</span><div><strong>Email</strong><span>youremail@email.com</span></div></div>
+            <div class="info"><span class="info-icon">&#9742;</span><div><strong>Call</strong><span>Call Us: + 1235 2355 98</span></div></div>
+        </div>
+        <a class="btn btn-sm" href="#Contact">Apply now</a>
+    </header>
+
+    <nav class="wrap nav" id="nav-bar">
         <div class="top-nav-bar">
-            <a class="nav-link" href="#hero">Home</a>
+            <a class="nav-link active" href="#hero">Home</a>
             <a class="nav-link" href="#About">About</a>
-            <a class = "nav-link" href="#Courses">Courses</a>
-            <a class = "nav-link" href="#staff">Staff</a>
-            <a class = "nav-link" href="#Blog">Blog</a>
-            <a class = " nav-link" href="#Contact">Contact</a>
-        </div>  
+            <a class="nav-link" href="#Courses">Courses</a>
+            <a class="nav-link" href="#staff">Staff</a>
+            <a class="nav-link" href="#Blog">Blog</a>
+            <a class="nav-link" href="#Contact">Contact</a>
+        </div>
+        <form class="search" onsubmit="return false">
+            <input type="text" placeholder="Search" aria-label="Search">
+            <button type="submit" aria-label="Search">&#9906;</button>
+        </form>
     </nav>
 
-    <section = "hero" >
-        <h2>University, College School Education</h2>
-        <p>A small river named Duden flows by their place and supplies it with the neccesairy regellialia</p>
-        <button id = "hero">Contact us</button>
-        <br>
-        <div class = container>
-            <div class="quality-1">
-                <h4>Certified Teachers</h4>
-                <p>Even all - powerful Pointing has no control about the blind texts it is an almost unorthrographic.</p>
-            </div>
-            <div class="quality-2">
-                <h4>Special Education</h4>
-                <p>Even all - powerful Pointing has no control about the blind texts it is an almost unorthrographic.</p>
-            </div>
-            <div class="quality-3">
-                <h4>Book & Library</h4>
-                <p>Even all - powerful Pointing has no control about the blind texts it is an almost unorthrographic.</p>
-            </div>
-            <div class="quality-4">
-                <h4>Sports Clubs</h4>
-                <p>Even all - powerful Pointing has no control about the blind texts it is an almost unorthrographic.</p>
-            </div>
-        </div> <br>
-    </section>
-    
-
-    <section = "About">
-        <h3>What we Offer</h3>
-        <p>On her way she met a copy. The copy warned the little Blind Text that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-        <div class="offers">
-            <div class="offer-1">
-                <h4>Safety First</h4>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-            </div>
-            <div class="offer-2">
-                <h4>Certified Teachers</h4>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-            </div>
-            <div class="offer-3">
-                <h4>Creative Lessons</h4>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-            </div>
-            <div class="offer-4">
-                <h4>Regular Classes</h4>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-            </div>
-            <div class="offer-5">
-                <h4>Sufficient Classrooms</h4>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-            </div>
-            <div class="offer-6">
-                <h4>Sports Facilities</h4>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-            </div>
-            <img class="About" src="/static/img/images2.jpg" alt="">
-        </div> <br>
+    <section id="hero" class="hero">
+        <div class="wrap hero-text">
+            <h2>University, College<br>School Education</h2>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <a class="btn" href="#Contact">Contact Us</a>
+        </div>
+        <div class="dots"><span class="on"></span><span></span></div>
     </section>
 
-    <section = "Blog">
-        <h2>Fox University</h2>
-        <p>Seperated they live in. A small river named Duden flows by their place and supplies it with necessary regalialia. it is a paradisematic country.A small river named Duden flows by their place and supplies it with necessary regalialia. it is a paradisematic country.A small river named Duden flows by their place and supplies it with necessary regalialia. it is a paradisematic country.</p> <br>
-        <p>A small river named Duden flows by their place and supplies it with necessary regalialia. it is a paradisematic country, in which roasted parts of sentences fly into ur mouth.</p>
-        <div class="unique">
-            <div class="unique-1">
-                <h4>2</h4>
-                <h5>Certified Teachers</h5>
+    <section class="container">
+        <div class="quality quality-1"><div class="q-icon">&#127891;</div><h4>Certified Teachers</h4><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p></div>
+        <div class="quality quality-2"><div class="q-icon">&#129489;</div><h4>Special Education</h4><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p></div>
+        <div class="quality quality-3"><div class="q-icon">&#128218;</div><h4>Book &amp; Library</h4><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p></div>
+        <div class="quality quality-4"><div class="q-icon">&#127942;</div><h4>Sport Clubs</h4><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p></div>
+    </section>
+
+    <section id="About" class="about">
+        <div class="about-text">
+            <h3>What We Offer</h3>
+            <p class="lead">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
+            <div class="offers">
+                <div class="offer"><span class="icon-chip">&#9921;</span><div><h4>Safety First</h4><p>Far far away, behind the word mountains, far from the countries Vokalia.</p></div></div>
+                <div class="offer"><span class="icon-chip">&#9786;</span><div><h4>Regular Classes</h4><p>Far far away, behind the word mountains, far from the countries Vokalia.</p></div></div>
+                <div class="offer"><span class="icon-chip">&#128221;</span><div><h4>Certified Teachers</h4><p>Far far away, behind the word mountains, far from the countries Vokalia.</p></div></div>
+                <div class="offer"><span class="icon-chip">&#127979;</span><div><h4>Sufficient Classrooms</h4><p>Far far away, behind the word mountains, far from the countries Vokalia.</p></div></div>
+                <div class="offer"><span class="icon-chip">&#129513;</span><div><h4>Creative Lessons</h4><p>Far far away, behind the word mountains, far from the countries Vokalia.</p></div></div>
+                <div class="offer"><span class="icon-chip">&#9917;</span><div><h4>Sports Facilities</h4><p>Far far away, behind the word mountains, far from the countries Vokalia.</p></div></div>
             </div>
-            <div class="unique-2">
-                <h4>59</h4>
-                <h5>Students
-                </h5>
+        </div>
+        <img class="about-img" src="static/img/images2.jpg" alt="Student reading on campus steps">
+    </section>
+
+    <section id="Blog" class="blog">
+        <div class="wrap blog-grid">
+            <a class="video" href="#Blog" aria-label="Play video">
+                <img src="static/img/images4.jpg" alt="Campus">
+                <span class="play">&#9654;</span>
+            </a>
+            <div class="blog-text">
+                <h2>Fox University</h2>
+                <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
             </div>
-            <div class="unique-3">
-                <h4> </h4>
-                <h5>Courses</h5>
-            </div>
-            <div class="unique-4">
-                <h4> </h4>
-                <h5>Awards Won</h5>
-            </div>
+        </div>
+        <div class="wrap unique">
+            <div class="stat"><h4>2</h4><h5>Certified Teachers</h5></div>
+            <div class="stat"><h4>59</h4><h5>Students</h5></div>
+            <div class="stat"><h4>&nbsp;</h4><h5>Courses</h5></div>
+            <div class="stat"><h4>&nbsp;</h4><h5>Awards Won</h5></div>
         </div>
     </section>
 
-    <section = "Contact">
-        <a href="mailto:youremail@gmail.com">youremail@gmail.com</a>
-        <a href="tel:+123456789">8283484930</a>
-        <button = apply>Apply Now</button>
+    <section id="Contact" class="contact wrap">
+        <h3>Get in touch</h3>
+        <div class="contact-links">
+            <a href="mailto:youremail@gmail.com">youremail@gmail.com</a>
+            <a href="tel:+123456789">8283484930</a>
+        </div>
+        <a class="btn" href="mailto:youremail@gmail.com">Apply Now</a>
     </section>
 
+    <footer>&copy; 2026 Fox University</footer>
 </body>
 </html>
